@@ -22,6 +22,11 @@ KAPTCHA(Korean completely Automated Public Turing test to tell Computers and Hum
 네, 맞습니다. 자연스럽게 <code>어머니가 사촌동생과 웃는다</code>로 읽게 되죠?</br>
 이렇게 한글 순서를 무작위로 섞어도, 한국인들은 알아본다는 한글의 특징을 사용한 CAPTCHA입니다.</br>
 
+그리고 다른 예시를 한번 볼까요?</br>
+<code>동쌩이 화짱품을 빠른따</code></br>
+이 문장 역시 읽게 되면 <code>동생이 화장품을 바른다</code>로 읽게 되죠?</br>
+맞습니다! 일반 자음을 쌍자음으로 바꿔도, 한국인들은 언제나 알아본다는 한글의 특징도 사용한 CAPTCHA입니다.</br>
+
 ***
 
 ## 3. 사용 용도는 어떻게 되는가?
@@ -29,6 +34,7 @@ KAPTCHA(Korean completely Automated Public Turing test to tell Computers and Hum
 사용 용도는 다음과 같습니다!</br>
 1. 한국인들'만' 인증시키고 싶을 때!
 2. 색다른 신개념 CAPTCHA를 도입하고 싶을 때!
+3. 안티캡차(Ex. 2captcha)를 무력화 시키고 싶을 때!
 
 ***
 
@@ -43,6 +49,7 @@ KAPTCHA(Korean completely Automated Public Turing test to tell Computers and Hum
 (표준국어대사전 API를 사용한다던가...)
 > 3. Python에서 문법에 맞게 일부 수정하기</br>
 (아니 <code>어머니을 동생가 먹는다</code>나 <code>컴퓨터을 동생이 짝사랑한다</code> 등이 나오면 안되잖아요?)
+~(근데 문법에 맞게는 못고칠것 같습니다... 예... 어차피 단어를 기준으로 잘라서 나오니, 읽는데는 문제가 없습니다 ㅎㅎ)~
 > 4. 시간제한이나 최종 확인등 프로그래밍 마무리 하기
 > 5. 서버를 이용해서 API 형태로 재공하기</br>
 (만약 하게 되면 아마존 서버를 사용할 것 같습니다 ~(아마존 사랑해요)~ )
