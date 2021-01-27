@@ -7,6 +7,7 @@ KAPTCHA : 한국인들'만' 사용 가능한 튜링 테스트
 2. 작동 방식이 무엇인가?
 3. 사용 용도는 어떻게 되는가?
 4. 앞으로의 발전 방향은?
+5. 필요한 패키지
 
 ***
 
@@ -55,6 +56,23 @@ KAPTCHA(Korean completely Automated Public Turing test to tell Computers and Hum
 (만약 하게 되면 아마존 서버를 사용할 것 같습니다 ~(아마존 사랑해요)~ )
 
 ***
+
+## 5. 필요한 패키지
+"한글"을 Python으로 다루려고 하니, 많이 어려웠습니다...</br>
+"한글"을 Python에서 다루는 기능까지 구현하려니 너무 힘들어서....</br>
+"한글"을 다루는 Python 패키지를 가져왔습니다.</br>
+따라서 필요한 패키지는 다음과 같습니다.
+
+"Simple Toolkit for Hangul" - (hgtk)</br>
+(출처 : https://github.com/bluedisk/hangul-toolkit)</br>
+</br>
+
+### INSTALL
+<code>pip install hgtk</code></br>
+<code>pip install six</code> - hgtk 패키지를 사용하기 위해서 필요합니다.</br>
+
+***
+
 언제 소리 없이 업로드돼서, 바람같이 완성되어 있을 수도 있으니,</br>
 자주 오지 마시고 가끔!! 아---주 가끔 오셔서 확인해 주세요</br>
 ~(요즘 너무 바빠서... 아마도 이 프로젝트가 생존신고가 될 것 같습니다...)~</br>
