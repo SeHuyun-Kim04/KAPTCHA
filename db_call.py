@@ -15,7 +15,7 @@ import hgtk
 
 def main(svo):
     if svo == 'subject':
-        f = open("Noun.txt", 'r', encoding='utf-8')
+        f = open("DB/Noun.txt", 'r', encoding='utf-8')
         rdr = f.readlines()  # Read Db Result
         result = hgtk.josa.attach(
             rdr[
@@ -26,7 +26,7 @@ def main(svo):
         f.close()
 
     elif svo == 'object':
-        f = open("Noun.txt", 'r', encoding='utf-8')
+        f = open("DB/Noun.txt", 'r', encoding='utf-8')
         rdr = f.readlines()  # Read Db Result
         rand = random.randint(0, 2)
         if rand == 0:
@@ -53,7 +53,7 @@ def main(svo):
         f.close()
 
     elif svo == 'verb':
-        f = open("Ver.txt", 'r', encoding='utf-8')
+        f = open("DB/Ver.txt", 'r', encoding='utf-8')
         rdr = f.readlines()  # Read Db Result
         result = rdr[
             random.randint(0, len(rdr) - 1)
