@@ -27,7 +27,7 @@ if __name__ == '__main__':
     questions = result_1[1] + result_2[1] + result_3[1]
 
     print(questions)
-    print('Dev :', original)
+    #print('Dev :', original)
 
     ip = input()
 
